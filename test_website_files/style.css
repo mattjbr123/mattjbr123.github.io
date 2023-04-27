@@ -1,0 +1,166 @@
+h1 {
+    color: aliceblue;
+    font-size: 59px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+
+h3{
+  font-family: 'Overpass', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 0px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#440154+0,404788+48,1f968b+56,73d055+61,fde725+66,73d055+71,1f968b+76,404788+85,440154+99 */
+  /*background: #440154; /* Old browsers */
+  /*background: -moz-linear-gradient(-45deg,  #440154 0%, #404788 48%, #1f968b 56%, #73d055 61%, #fde725 66%, #73d055 71%, #1f968b 76%, #404788 85%, #440154 99%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(-45deg,  #440154 0%,#404788 48%,#1f968b 56%,#73d055 61%,#fde725 66%,#73d055 71%,#1f968b 76%,#404788 85%,#440154 99%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(135deg,  #440154 0%,#404788 48%,#1f968b 56%,#73d055 61%,#fde725 66%,#73d055 71%,#1f968b 76%,#404788 85%,#440154 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#440154', endColorstr='#440154',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  
+
+}
+
+h4{
+  font-family: 'Overpass', sans-serif;
+  font-size: 25px;
+  margin-bottom: 0px;
+
+}
+
+.viridis {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#440154+0,404788+48,1f968b+69,73d055+83,b8de29+100 */
+  background: #440154; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #440154 0%, #404788 48%, #1f968b 69%, #73d055 83%, #b8de29 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #440154 0%,#404788 48%,#1f968b 69%,#73d055 83%,#b8de29 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #440154 0%,#404788 48%,#1f968b 69%,#73d055 83%,#b8de29 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#440154', endColorstr='#b8de29',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding-left:10px;
+
+}
+
+.socialicon{
+  height:50px;
+  padding:10px;
+  margin:10px;
+}
+
+.socialicon:hover{
+  height:50px;
+  padding:10px;
+  margin:10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#404788+0,1f968b+100 */
+background: #404788; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #404788 0%, #1f968b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #404788 0%,#1f968b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #404788 0%,#1f968b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404788', endColorstr='#1f968b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: #f0f8ff;
+}
+
+a, a:hover, a:active, a:visited { color: aliceblue; }
+
+p{
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+li{
+  font-family: 'Overpass', sans-serif;
+  
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;   
+    padding: 20px;
+}
+
+#my_dataviz{
+  
+}
+
+.colourband {
+    margin-left: -1000px;
+    padding-left: 1000px;
+}
+
+.responsiveimg {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .columnw {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    padding: 10px;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+    height: 200px;
+    object-fit: cover;
+    
+  }
+
+
+
+
+  .svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+  }
+  .svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+
+
+
+  code {
+    background-color: rgb(12, 96, 110);
+    border: 1px solid rgb(58, 58, 58);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap   
+  } 
